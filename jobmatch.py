@@ -10,7 +10,7 @@ aziende_file = os.path.join(dir_path, "aziende.csv")
 studenti_file = os.path.join(dir_path, "studenti.csv")
 
 st.set_page_config(page_title="Match Lavoro - POP BI & LiVE", layout="centered")
-st.title("🔗 Piattaforma Incontro Domanda-Offerta | POP BI x LiVE")
+st.title("🔗 LiVE Job Matcher")
 
 menu = ["Per le Aziende", "Per gli Studenti", "👁️‍🗨️ Admin - Visualizza Dati"]
 scelta = st.sidebar.radio("Seleziona il tuo profilo", menu)
